@@ -1,0 +1,16 @@
+
+.nav-bar {
+display: flex;
+flex-direction: row;
+margin: 0 20vh;
+justify-content: right;
+gap: 10vh;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.header-link {
+display: inline - block;
+}
