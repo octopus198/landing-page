@@ -1,16 +1,52 @@
+body {
+  margin: 0;
+}
 
 .nav-bar {
-display: flex;
-flex-direction: row;
-margin: 0 20vh;
-justify-content: right;
-gap: 10vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20vh;
+  justify-content: right;
+  gap: 10vh;
+}
+
+.header-link {
+  display: inline - block;
 }
 
 .logo {
   margin-right: auto;
 }
 
-.header-link {
-display: inline - block;
+.margin-both-side {
+  margin: 0 30vh;
 }
+
+.margin-top-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hero {
+  background-color: #1f2937;
+  width: 100vw;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-image {
+  width: 60%;
+  height: 200px;
+  background-color: lightblue;
+  display: block;
+}
+
+.hero-text-container {
+  width: 40%;
+}
+
+
+
